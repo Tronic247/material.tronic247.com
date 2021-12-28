@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        {% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name}}
+    </title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.body.style.display = 'block';
+        });
+    </script>
+    <link rel="shortcut icon" href="{{ 'img/logo.png'|url }}" />
+    <meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{
+        config.site_name}}" />
+    {% if page.title %}
+    <meta name="description" content="The documentation for {% if page.title %}{{ page.title }}{% endif %}" />
+    {% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <meta name="keywords"
+        content="Material design, material-design-framework , jquery material design, best material-design framework" />
+    <meta name="theme-color" content="#1976d2" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="manifest" content="manifest.json" />
+    <meta name="revisit-after" content="2 days" />
+    <meta name="author" content="Tronic247" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/material.css?c" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body class="container-fluid p-0 m-0">
+    <header class="appbar primary elevating" style="transition: none !important;position: sticky;top: 0;" id="appbar">
+        <div class="left">
+            <a href="{{ base_url }}" class="title color-dark-1">Tronic247 Material</a>
+        </div>
+        <div class="right">
+            <input class="appbar-input mr-4" placeholder="Search" id="search" />
+            <a href="{{ base_url }}/components/alerts/" class="btn text">
+                Components
+            </a>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer class="p-4 pt-0 bg-primary-5 color-dark-1">
+        <div class="row">
+            <div class="col">
+                <h5>People who supported this project</h5>
+                <a href="https://github.com/tronic247/material-docs/graphs/contributors">
+                    <img src="https://contrib.rocks/image?repo=tronic247/material-docs" />
+                </a>
+                <br />
+                <p>Want to be on this list ? Send a PR to this<a href="https://github.com/Tronic247/material"
+                        class="btn text p-0 warning" rel="follow"> Github repository</a></p>
+                <p>This framework was created by <a href="http://tronic247.com/?ref=material"
+                        class="btn text p-0 warning" rel="follow">Tronic247</a></p>
+            </div>
+            <div class="col">
+                <h5>Problems or feature requests?</h5>
+                <p class="h6">
+                    Join us on <a href="https://discord.gg/Xusx5WFwMH" class="btn text p-0 warning">Discord</a>
+                    and start chatting ! Or else visit our
+                    <a href="https://github.com/Tronic247/material" class="btn text p-0 warning">Github
+                        Repository</a> and create an issue or send a Pull request.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="{{ base_url }}/material.js"></script>
+    <script src="{{ base_url }}/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.1/build/highlight.min.js"></script>
+    <script data-ad-client="ca-pub-8836219589547174" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        hljs.highlightAll();
+        InstantClick.init();
+    </script>
+</body>
+
+</html>
