@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="p-5 color-dark-1 bg-primary-5">
+<div style="text-align: center;">
+    <img src="{{ base_url }}/logo.svg" alt="Logo" width="200">
     <h1>Tronic247 Material</h1>
     <p>Modern Material design framework</p>
-    <a href="getting-started/" class="btn secondary">Getting Started</a>
-    <a href="https://github.com/Tronic247/material" class="btn secondary ">Star on Github</a>
+    <a href="/getting-started/" class="btn  primary">Getting Started</a>
+    <a href="https://github.com/Tronic247/material" class="btn ms-2  bg-black-9">Github</a>
     <div class="p-2"></div>
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tronic247/material?style=social">
+    <a href="https://github.com/Tronic247/material">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tronic247/material?style=social">
+    </a>
     <div class="p-4 m-4"></div>
 </div>
 <div class="p-5 pt-3 pb-3">
@@ -15,7 +18,9 @@
             <h2 class="display-h5 color-dark-7">Completely rededigned</h2>
             <p>We rededigned the entire framework to be more modern and more user friendly. We also added a lot of
                 components to make it easier to use.</p>
+        </div>
 
+        <div class="col p-4 m-2">
             <div class="p-4 mt-3 mb-3 bg-dark-1 rounded">
                 <div class="elevation-1 rounded p-4" style="background: #fff;">
                     <h1 class="display-h5 m-0">New Friend request</h1>
@@ -25,15 +30,21 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    <div class="row">
         <div class="col p-4 m-2">
             <h2 class="display-h5 color-dark-7">Lightweight</h2>
             <p>No Dependencies like jQuery. No need to include any libraries. Just download the package and start
-                using it.</p>
+                using it. Yes, I'm not joking.</p>
 
             <a href="/getting-started/" class="btn primary outlined">Get Started</a>
         </div>
 
+        <div class="col p-4 m-2">
+            <img src="{{ base_url }}/lightweight.svg" alt="">
+        </div>
+    </div>
+    <div class="row">
         <div class="col p-4 m-2">
             <h2 class="display-h5 color-dark-7">Show your love</h2>
             <p>We are open source and we are always looking for new contributors. If you have any suggestions or

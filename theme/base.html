@@ -10,7 +10,7 @@
             document.body.style.display = 'block';
         });
     </script>
-    <link rel="shortcut icon" href="{{ 'img/logo.png'|url }}" />
+    <link rel="shortcut icon" href="{{ base_url }}/logo.svg" />
     <meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{
         config.site_name}}" />
     {% if page.title %}
@@ -33,6 +33,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/material.css?c" />
     <link rel="stylesheet" href="/style.css" />
+    <!--Materialdesignicons cdn-->
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css" />
 </head>
 
 <body class="container-fluid p-0 m-0">
@@ -42,7 +44,7 @@
         </div>
         <div class="right">
             <input class="appbar-input mr-4" placeholder="Search" id="search" />
-            <a href="{{ base_url }}/components/alerts/" class="btn text">
+            <a href="{{ base_url }}/components/alerts/" class="btn hide-on-mobile text">
                 Components
             </a>
         </div>
@@ -52,19 +54,22 @@
 
     <footer class="p-4 pt-0 bg-primary-5 color-dark-1">
         <div class="row">
+            <a href="mailto:posandumapa@gmail.com" class="p-4 btn outlined warning mt-2 mb-2 rounded unelevated" style="display: block;">
+                Your Ad here
+            </a>
             <div class="col">
-                <h5>People who supported this project</h5>
+                <h5 class="mt-2">People who supported this project</h5>
                 <a href="https://github.com/tronic247/material-docs/graphs/contributors">
                     <img src="https://contrib.rocks/image?repo=tronic247/material-docs" />
                 </a>
                 <br />
-                <p>Want to be on this list ? Send a PR to this<a href="https://github.com/Tronic247/material"
-                        class="btn text p-0 warning" rel="follow"> Github repository</a></p>
-                <p>This framework was created by <a href="http://tronic247.com/?ref=material"
+                <p>Want to be on this list ? Send a PR to this <a href="https://github.com/Tronic247/material"
+                        class="btn text p-0 warning" rel="follow">Github repository</a></p>
+                <p>Created by <a href="http://tronic247.com/?ref=material"
                         class="btn text p-0 warning" rel="follow">Tronic247</a></p>
             </div>
             <div class="col">
-                <h5>Problems or feature requests?</h5>
+                <h5 class="mt-2">Problems or feature requests?</h5>
                 <p class="h6">
                     Join us on <a href="https://discord.gg/Xusx5WFwMH" class="btn text p-0 warning">Discord</a>
                     and start chatting ! Or else visit our
