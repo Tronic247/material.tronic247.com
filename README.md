@@ -3,16 +3,10 @@ The official docs for Tronic247 Material.
 
 ## Run docs locally using Python and git
 Just put in a terminal the following command:
-`git clone https://github.com/Tronic247/material-docs && python -m pip install mkdocs`
+`git clone https://github.com/Tronic247/material.tronic247.com && python -m pip install mkdocs`
 
-## Launch
-Dynamic build (for development):
-
+## Launch for development
 `python -m mkdocs serve --watch-theme`
-
-Standard build (for production):
-
-`python -m mkdocs build`
 
 ## Contributors
 These great people help to the documentation of the framework<br>
