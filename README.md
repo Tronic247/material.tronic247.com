@@ -1,4 +1,4 @@
-# [Tronic247 Material Docs](https://material.pages.dev/)
+# [Tronic247 Material Docs](https://material.tronic247.com/)
 The official docs for Tronic247 Material.
 
 ## Run docs locally using Python and git
