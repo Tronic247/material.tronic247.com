@@ -1,6 +1,8 @@
+<ins id="stable"></ins>
+
 ## Filled Select
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="select-container filled">
 		<label for="demoselect">Select</label>
 		<select id="demoselect">
@@ -30,7 +32,7 @@
 
 ## Outlined Select
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="select-container outlined">
 		<label for="demoselectoutlined">Select</label>
 		<select id="demoselectoutlined">
@@ -60,7 +62,7 @@
 
 ## Border bottom Select
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="select-container border-bottom">
 		<label for="demoselectborderb">Select</label>
 		<select id="demoselectborderb">
@@ -90,7 +92,7 @@
 
 ## Disabled Items and optgroups
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="select-container filled">
 		<label for="demoselectfilledd">Select</label>
 		<select id="demoselectfilledd">
@@ -130,7 +132,7 @@
 
 ## Disabled Select
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="select-container filled disabled" tabindex="-1">
 		<label for="demoselectdis">Select</label>
 		<select id="demoselectdis" disabled>
@@ -154,7 +156,7 @@
 
 ## Error State
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="select-container filled error">
 		<label for="demoselecter">Select</label>
 		<select id="demoselecter">

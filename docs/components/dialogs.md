@@ -1,6 +1,8 @@
+<ins id="stable"></ins>
+
 ## Dialog Markup
 Hover to see an explanation.
-<div class="p-4 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
     <img src="https://res.cloudinary.com/tronic247/image/upload/v1626077024/Capture_s7w393.png" usemap="#image-map">
     <map name="image-map">
         <area coords="142,123,371,313" shape="rect" data-tooltip="Content">
@@ -61,7 +63,7 @@ Hover to see an explanation.
 
 ## Trigger
 
-<div class="p-4 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
     <button data-trigger="dialog" data-dialog="#demo-dialog-trigger" class="text">Open</button>
         <div class="dialog-overlay" id="demo-dialog-trigger">
             <div class="dialog">
@@ -125,7 +127,7 @@ Here are avaialable attributes.
 </div>
 
 ## Bottom sheet style
-<div class="p-4 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 <button class="text" data-trigger="dialog" data-dialog="#demodialogsheet">Open</button>
    <div class="dialog-overlay" id="demodialogsheet">
     <div class="dialog bottom-sheet">
@@ -158,7 +160,7 @@ Here are avaialable attributes.
 </div>
 ```
 ## Full Screen dialog
-<div class="p-4 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
     <button class="text" data-trigger="dialog" data-dialog="#demodialogfs">Open</button>
     <div class="dialog-overlay" id="demodialogfs">
             <div class="dialog fullscreen">

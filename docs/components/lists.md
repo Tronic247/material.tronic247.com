@@ -1,5 +1,7 @@
+<ins id="stable"></ins>
+
 ## Usage
-<div class="p-4 m-1 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="list" style="width: 20vh;margin: auto;">
 		<a href="#!" class="list-item ripple-e">Item #1</a>
 		<a href="#!" class="list-item ripple-e">Item #2</a>
@@ -20,7 +22,7 @@
 ```
 
 ## Before and after items
-<div class="p-4 m-1 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="list" style="width: 20vh;margin: auto;">
 		<a href="#!" class="list-item ripple-e">
 			<span class="material-icons">done</span>Item #1
@@ -121,7 +123,7 @@
 ```
 
 ## Active Item
-<div class="p-4 m-1 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="list" style="width: 20vh;margin: auto;">
 		<a href="#!" class="list-item ripple-e">Item #1</a>
 		<a href="#!" class="list-item ripple-e">Item #2</a>
@@ -142,7 +144,7 @@
 ```
 
 ## Small List
-<div class="p-4 m-1 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="list small" style="width: 20vh;margin: auto;">
 		<a href="#!" class="list-item ripple-e">Item #1</a>
 		<a href="#!" class="list-item ripple-e">Item #2</a>

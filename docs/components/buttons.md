@@ -1,3 +1,6 @@
+<ins id="stable"></ins>
+
+## Types
 <div class="p-4 m-1 bg-dark-1">
 	<button class="btn primary">Normal</button>
 	<button class="btn primary unelevated">Unelevated</button>
@@ -131,10 +134,7 @@ You can use the button component to create stuff like this.
 </div>
 
 ```xml
-<button class="btn primary outlined">
-	Loading Stuff
-	<div style="transform:scale(0.3);height: 15px;width: 27pxmargin-top: -15px;">
-    	<span class="progress circle" style="background:transparent;"><span>
-    </div>
+<button class="btn outlined primary" style="outline-offset:-6px !important">
+	Button
 </button>
 ```

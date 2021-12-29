@@ -1,9 +1,11 @@
+<ins id="stable"></ins>
+
 ## Usage
 Add class `ripple-e` to the element you want to add the ripple effect.
 <div class="alert alert-primary" role="alert">
     <p class="alert-message">Note that you don't need to add the class to `.btn` or `button` elements.</p>
 </div>
-<div class="p-4 m-1 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="background-light-grey ripple-e dark-ripple elevation-1" style="height: 200px;width: 200px;"></div>	
 </div> 
 
@@ -30,7 +32,7 @@ Add class `ripple-e` to the element you want to add the ripple effect.
 
 ## Center ripple
 Add the class `center-ripple`.
-<div class="p-4 m-1 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="background-light-grey ripple-e dark-ripple center-ripple elevation-1" style="height: 200px;width: 200px;"></div>	
 </div>   
 
@@ -39,7 +41,7 @@ Add the class `center-ripple`.
 ```
 
 ## Custom ripple color
-<div class="p-4 m-1 background-light-grey">
+<div class="p-4 m-1 bg-dark-1">
 	<div class="ripple-e elevation-1" style="height: 200px;width: 200px;--ripple-color: #e4e0124a;"></div>	
 </div>   
 

@@ -135,3 +135,11 @@ code.hljs {
     display: block !important;
   }
 }
+
+.ripple-e {
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+}

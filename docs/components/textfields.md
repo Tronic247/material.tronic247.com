@@ -1,6 +1,8 @@
+<ins id="stable"></ins>
+
 ## Filled Textfield
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<label class="textfield filled">
 		<input placeholder=" ">
 		<span>Textfield</span>
@@ -16,7 +18,7 @@
 
 ## Outlined Textfield
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<label class="textfield outlined">
 		<input placeholder=" ">
 		<span>Textfield</span>
@@ -32,7 +34,7 @@
 
 ## Border Bottom Textfield
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<label class="textfield border-bottom">
 		<input placeholder=" ">
 		<span>Textfield</span>
@@ -48,7 +50,7 @@
 
 ## Disabled Textfield
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<label class="textfield filled">
 		<input placeholder=" " disabled>
 		<span>Textfield</span>
@@ -64,7 +66,7 @@
 
 ## Textarea
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<label class="textfield border-bottom">
 		<textarea placeholder=" "></textarea>
 		<span>Textarea</span>
@@ -81,7 +83,7 @@
 
 ## Error state
 
-<div class="p-5 m-1">
+<div class="p-4 m-1 bg-dark-1">
 	<label class="textfield filled error">
 		<input placeholder=" ">
 		<span>Textfield</span>
