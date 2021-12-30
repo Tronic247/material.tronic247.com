@@ -2,14 +2,14 @@
 
 ## Infinite loading
 <div class="p-4 m-1 bg-dark-1">
-	<div class="progress infinite"></div>
+	<div class="progress intermediate"></div>
 	<br/>
-	<div class="progress circular"></div>
+	<div class="progress circle"></div>
 </div>
 
 ```xml
-<div class="progress infinite"></div>
-<div class="progress circular"></div>
+<div class="progress intermediate"></div>
+<div class="progress circle"></div>
 ```
 
 ## Loading with value

@@ -32,11 +32,12 @@ if you want to use a CDN, see below.
 ### Framework
 
 ```xml
-<link href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
+<link href="https://unpkg.com/tronic247-material@3.0.0/dist/material.min.css" rel="stylesheet" />
+<script src="https://unpkg.com/tronic247-material@3.0.0/dist/material.min.js"></script>
 ```
 
 ## CodePen Template
+
 If you want to test the framework on CodePen, you can use the following template:
 <br>
 <a class="btn mt-2 unelevated" href="https://codepen.io/pen?template=MWErzzo" target="_blank">Open</a>

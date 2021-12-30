@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-<article class="container-fluid mt-2">
+<article class="container-fluid">
 	<div class="row">
 		<aside class="col-4 col-lg-2">
-			<div class="list small" style="border-right: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;">
+			<div class="list small" style="border-right: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;margin-left: -10px;">
 				{% if nav|length>1 %}
 				{% for nav_item in nav %} {% if nav_item.children %}
-				<p><strong>{{ nav_item.title }}</strong></p>
+				<p class="ms-2 color-dark-6">{{ nav_item.title }}</p>
 				{% for nav_item in nav_item.children %}
 				<a class="
 			item ripple-e
@@ -36,7 +36,7 @@
 					(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
-			<h1 class="display-h2 m-0 mb-2">{{ page.title }} </h1>
+			<h1 class="display-h2 mb-0">{{ page.title }} </h1>
 			<div class="row">
 				<div class="col-9">
 					{% set toc_num = namespace(value=0) %}
@@ -51,7 +51,7 @@
 				</div>
 				<div class="col" id="table-of-contents">
 					<a class="btn outlined small" href={{ page.edit_url }}>Edit this page</a>
-					<a href="mailto:posandumapa@gmail.com" class="p-4 btn mt-2 mb-2 rounded unelevated" style="display: block;">
+					<a href="/advertising.html" class="p-4 btn mt-2 mb-2 rounded unelevated" style="display: block;">
 						Your Ad here
 					</a>
 					<h6 class="display-h5 m-0 mt-4">Table of Contents</h6>

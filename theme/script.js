@@ -20,6 +20,7 @@ for (let badge in badges) {
     }
 }
 
+
 const snack = (n) => {
     switch (n) {
         case 1:
@@ -50,3 +51,18 @@ if (document.querySelector(".aa")) {
     });
     alert(range.get());
 }
+
+if (document.querySelector("#aaa") && document.querySelector("#a") && document.querySelector("#a")) {
+    let a = document.querySelector("#a");
+    let aaa = document.querySelector("#aaa");
+    let aa = document.querySelector("#aa");
+    
+    aaa.addEventListener("click", () => {
+        Material.Dialog.open(a);
+    });
+    aa.addEventListener("click", () => {
+        Material.Dialog.close(a);
+    });
+}
+
+Material.Forms.init();
