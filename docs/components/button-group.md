@@ -1,4 +1,4 @@
-<ins id="experimental"></ins>
+<ins id="stable"></ins>
 
 ## Usage
 
