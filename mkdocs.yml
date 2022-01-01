@@ -14,3 +14,4 @@ theme:
         - ads.txt
         - manifest.json
         - advertising.html
+        - 404.html
