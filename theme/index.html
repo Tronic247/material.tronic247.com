@@ -10,7 +10,7 @@
             fetch("https://api.github.com/repos/tronic247/material/commits/main")
                 .then(res => res.json())
                 .then(res => {
-                    e.innerHTML = res.sha;
+                    e.innerHTML = `<b>${res.sha}</b>`;
                     e.setAttribute("href", res.html_url);
                     e.setAttribute("target", "_blank");
                 });
