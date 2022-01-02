@@ -32,8 +32,8 @@ if you want to use a CDN, see below.
 ### Framework
 
 ```xml
-<link href="https://unpkg.com/tronic247-material/dist/material.min.css" rel="stylesheet" />
-<script src="https://unpkg.com/tronic247-material/dist/material.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/material.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/material.min.js"></script>
 ```
 
 ## CodePen Template
