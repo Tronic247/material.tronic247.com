@@ -143,3 +143,15 @@ code.hljs {
 a {
   color: inherit;
 }
+
+button.DocSearch.DocSearch-Button:hover {
+  box-shadow: none !important;
+}
+
+button.DocSearch.DocSearch-Button {
+  transition: all 0.2s ease !important;
+}
+
+form.DocSearch-Form {
+  box-shadow: inset 0px 0px 0px 2px #3f51b5;
+}
