@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
 #appbar {
-  z-index: 999;
+  z-index: 99;
 }
 #table-of-contents {
   margin-top: -1px;
